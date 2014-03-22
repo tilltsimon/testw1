@@ -1,0 +1,28 @@
+body {
+	background-image:'images/background.gif';
+}
+
+.coolbox {
+	background-color: yellow;
+	height: 200px;
+	border: 10px dashed blue;
+	border-radius: 50px;
+	font-size: 30;
+	color: blue;
+	text-align:center;
+	padding: 20px;
+}
+
+.big-fonts {
+	font-size: 90px;
+	font-family: comic-sans;
+	font-style: italic;
+}
+
+.text1 {
+	color: gray;
+}
+
+.text2 {
+	color: green;
+}
