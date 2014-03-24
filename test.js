@@ -47,4 +47,11 @@ function doCoolStuff() {
 
 	// Let's print it to the console so we can verify what we're telling it to do:
 	console.log( "On interation " + count + ", the color was set to " + color );
+
+
+	// I can also do this all at once
+	$('.text2').css( "color", colors[(count+1) % 3] );
+
+	$('.text3').css( "color", colors[(count+2) % 3] );
+
 }
